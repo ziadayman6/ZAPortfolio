@@ -50,11 +50,20 @@ function ThirdSection() {
     {
       id: 3,
       title: "REACT QUIZ WEBSITE",
-      desc: "It's a website for react js quiz that contains 15 question on react with different difficulties to let someone testing his knowledge level of react js. \n I create this website using REACTJS and MATERIAL UI.",
+      desc: "It's a website for react js quiz that contains 15 question on react with different difficulties to let someone testing his knowledge level of react js. \n I create this website using ReactJS and Material UI for Design.",
       image: "imgs/reactquiz.png",
       url: "https://reactquiz26.netlify.app/",
       code: "https://github.com/ziadayman6/React_JS_Quiz",
       tools: ["imgs/reactjs.png", "imgs/mui.png"],
+    },
+    {
+      id: 4,
+      title: "WORLD WISE WEBSITE",
+      desc: "Explore my travel planner project! A React-based app with a map feature that lets users choose a city, write picnic notes and visit this city in wikipedia. \n I create this website using ReactJS, and React Router for navigation, Context API and CSS for Design",
+      image: "imgs/worldwise.png",
+      url: "https://worldwise26.netlify.app/",
+      code: "https://github.com/ziadayman6/React_JS_Quiz",
+      tools: ["imgs/reactjs.png", "imgs/reactRouter.png", "imgs/css-3.png"],
     },
   ];
 
