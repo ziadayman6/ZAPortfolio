@@ -9,7 +9,7 @@ function Project({ image, url, desc, title, tools, code }) {
         <p>{desc}</p>
         <div className="tools">
           {tools.map((tool) => (
-            <img src={tool} alt="none" />
+            <img src={tool.url} alt="none" width={tool.size} />
           ))}
         </div>
         <div className="anchors">

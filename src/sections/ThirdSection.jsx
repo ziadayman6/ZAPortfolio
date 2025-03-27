@@ -31,7 +31,11 @@ function ThirdSection() {
       image: "imgs/home1.png",
       url: "https://ziadayman6.github.io/LaCasaSegura/body.html",
       code: "https://github.com/ziadayman6/LaCasaSegura",
-      tools: ["imgs/html-5.png", "imgs/css-3.png", "imgs/js.png"],
+      tools: [
+        { url: "imgs/html-5.png", size: "70vw" },
+        { url: "imgs/css-3.png", size: "70vw" },
+        { url: "imgs/js.png", size: "70vw" },
+      ],
     },
     {
       id: 2,
@@ -41,10 +45,10 @@ function ThirdSection() {
       url: "http://ziadayman.pythonanywhere.com/home/",
       code: "https://github.com/ziadayman6/HumanResources",
       tools: [
-        "imgs/html-5.png",
-        "imgs/css-3.png",
-        "imgs/js.png",
-        "imgs/django.png",
+        { url: "imgs/html-5.png", size: "70vw" },
+        { url: "imgs/css-3.png", size: "70vw" },
+        { url: "imgs/js.png", size: "70vw" },
+        { url: "imgs/django.png", size: "70vw" },
       ],
     },
     {
@@ -54,7 +58,10 @@ function ThirdSection() {
       image: "imgs/reactquiz.png",
       url: "https://reactquiz26.netlify.app/",
       code: "https://github.com/ziadayman6/React_JS_Quiz",
-      tools: ["imgs/reactjs.png", "imgs/mui.png"],
+      tools: [
+        { url: "imgs/reactjs.png", size: "70vw" },
+        { url: "imgs/mui.png", size: "70vw" },
+      ],
     },
     {
       id: 4,
@@ -62,8 +69,12 @@ function ThirdSection() {
       desc: "Explore my travel planner project! A React-based app with a map feature that lets users choose a city, write picnic notes and visit this city in wikipedia. \n I create this website using ReactJS, and React Router for navigation, Context API and CSS for Design",
       image: "imgs/worldwise.png",
       url: "https://worldwise26.netlify.app/",
-      code: "https://github.com/ziadayman6/React_JS_Quiz",
-      tools: ["imgs/reactjs.png", "imgs/reactRouter.png", "imgs/css-3.png"],
+      code: "https://github.com/ziadayman6/WorldWise",
+      tools: [
+        { url: "imgs/reactjs.png", size: "70vw" },
+        { url: "imgs/reactRouter.png", size: "90vw" },
+        { url: "imgs/css-3.png", size: "70vw" },
+      ],
     },
   ];
 
