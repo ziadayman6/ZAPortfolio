@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import WOW from "wowjs";
+import NavBar from "./components/NavBar";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
-function App() {
+import Footer from "./components/Footer";
+import UpArrow from "./components/UpArrow";
+import Presentation from "./sections/Presentation";
+import FirstSection from "./sections/FirstSection";
+import SecondSection from "./sections/SecondSection";
+import ThirdSection from "./sections/ThirdSection";
+import FourthSection from "./sections/FourthSection";
+
+export default function App() {
+  useEffect(() => {
+    new WOW.WOW().init();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Presentation />
+      <FirstSection />
+      <SecondSection />
+      <ThirdSection />
+      <FourthSection />
+      <Footer />
+      <UpArrow />
+    </>
   );
 }
-
-export default App;
