@@ -1,7 +1,7 @@
 function Title({ children, onClick, isOpen }) {
   return (
     <div className="animate__animated animate__slideInUp wow">
-      <h1>{children}</h1>
+      <h1 className="titleee">{children}</h1>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"

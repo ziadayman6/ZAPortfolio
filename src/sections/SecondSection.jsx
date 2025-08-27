@@ -33,7 +33,7 @@ function SecondSection() {
       size: "70vw",
       id: 18,
     },
-    { name: "Tailwindcss", image: "imgs/tailwind.png", size: "150vw", id: 15 },
+    { name: "Tailwindcss", image: "imgs/tailwind.png", size: "90vw", id: 15 },
     { name: "Bootstrap", image: "imgs/bootstrap.png", size: "90vw", id: 6 },
     { name: "JS", image: "imgs/js.png", size: "70vw", id: 4 },
     { name: "TS", image: "imgs/ts.png", size: "70vw", id: 16 },
@@ -45,20 +45,21 @@ function SecondSection() {
       id: 8,
     },
     { name: "Redux", image: "imgs/redux.png", size: "70vw", id: 9 },
-    { name: "React Query", image: "imgs/ReactQuery.png", size: "130vw", id: 5 },
+    { name: "React Query", image: "imgs/ReactQuery.png", size: "80vw", id: 5 },
     {
       name: "React Hook Form",
       image: "imgs/reactHookForm.png",
       size: "80vw",
       id: 19,
     },
-    { name: "i18Next", image: "imgs/i18next.png", size: "150vw", id: 17 },
+    { name: "i18Next", image: "imgs/i18next.png", size: "80vw", id: 17 },
     { name: "MUI", image: "imgs/mui.png", size: "70vw", id: 10 },
     { name: "Figma", image: "imgs/figma.png", size: "80vw", id: 11 },
     { name: "Photoshop", image: "imgs/photoshop.png", size: "70vw", id: 12 },
     { name: "GIT", image: "imgs/git.png", size: "80vw", id: 13 },
     { name: "NPM", image: "imgs/npm.png", size: "80vw", id: 14 },
     { name: "Vite", image: "imgs/vite.png", size: "70vw", id: 20 },
+    { name: "Netlify", image: "imgs/netlify.png", size: "90vw", id: 21 },
   ];
   return (
     <div className="section3" id="to2">

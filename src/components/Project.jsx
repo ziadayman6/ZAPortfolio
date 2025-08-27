@@ -5,8 +5,8 @@ function Project({ image, url, desc, title, tools, code }) {
         <img src={image} alt="none" />
       </div>
       <div className="backk">
-        <p style={{ color: "#660000" }}>{title}</p>
-        <p>{desc}</p>
+        <p className="title">{title}</p>
+        <p className="desc">{desc}</p>
         <div className="tools">
           {tools.map((tool) => (
             <img src={tool.url} alt="none" width={tool.width} height={tool.height} />

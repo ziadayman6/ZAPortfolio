@@ -225,7 +225,6 @@
   }
   .section3 .son p {
     font-weight: 700;
-    font-size: larger;
   }
   .section3 .parent {
     margin-top: 10%;
@@ -317,6 +316,18 @@ hr {
   border-radius: 5px;
 }
 
+.backk .desc {
+  white-space: pre-line;
+  font-size: smaller;
+}
+
+.backk .title {
+  color: #660000;
+  text-decoration: underline;
+  font-size: smaller;
+  margin-bottom: 10px;
+}
+
 .anchors {
   display: flex;
   flex-direction: column;
@@ -347,8 +358,8 @@ hr {
 
 @media (max-width: 600px) {
   .section4 .tools img {
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
   }
   .section4 .tools {
     margin: 5vw 0px;
@@ -390,6 +401,12 @@ hr {
     padding: 5% 3%;
     margin-bottom: 10%;
   }
+  .backk .title {
+    font-size: 3.5vw;
+  }
+  .backk .desc {
+    font-size: 3.5vw;
+  }
   .child12 img {
     width: 70vw;
   }
@@ -415,41 +432,8 @@ hr {
   align-items: center;
 }
 
-.section5 input:not([type="submit"]),
-.section5 textarea {
-  font-size: 1.5vw;
-  padding: 2% 5%;
-  border-radius: 5px;
-  border: transparent;
-  border-bottom: 3px solid #0000cc;
-  background-color: #cccccc30;
-  margin-bottom: 5%;
-  outline: none;
-}
-
-input[type="submit"] {
-  width: 40%;
-  background-color: #0000cc;
-  color: white;
-  border-radius: 5px;
-  font-size: 1.5vw;
-  padding: 2% 5%;
-  border: transparent;
-}
-
-textarea {
-  max-width: 100%;
-  min-width: 100%;
-  min-height: 20vh;
-  max-height: 20vh;
-}
-
-::placeholder {
-  opacity: 0.5;
-}
-
 .section5 .parent img {
-  width: 75%;
+  width: 55%;
 }
 
 .section5 .parent .div2 {
@@ -472,18 +456,12 @@ textarea {
     display: flex;
     flex-direction: column;
   }
-  .section5 input:not([type="submit"]),
-  .section5 textarea,
-  input[type="submit"] {
-    font-size: 4vw;
-    padding: 2% 5%;
-  }
   .section5 .parent .div2 {
     width: 70%;
     margin-bottom: 5%;
   }
   .section5 .parent img {
-    width: 55%;
+    width: 35%;
     margin-bottom: 10%;
   }
 }
@@ -500,6 +478,10 @@ textarea {
   border-radius: 5px;
   animation: jumping 0.5s linear infinite;
   cursor: pointer;
+}
+
+.titleee {
+  font-size: 3vw;
 }
 
 @keyframes jumping {
@@ -519,6 +501,9 @@ textarea {
     font-size: 3vw;
     padding: 2%;
     bottom: 3%;
+  }
+  .titleee {
+    font-size: 6vw;
   }
 
   @keyframes jumping {
