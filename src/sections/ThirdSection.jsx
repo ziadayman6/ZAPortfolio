@@ -74,7 +74,7 @@ function ThirdSection() {
       tools: [
         { url: "imgs/reactjs.png", width: "50vw", height: "50vw" },
         { url: "imgs/reactRouter.png", width: "60vw", height: "60vw" },
-        { url: "imgs/css-3.png", width: "50vw", height: "50vw" },
+        { url: "imgs/cssModules.png", width: "55vw", height: "55vw" },
         { url: "imgs/vite.png", width: "40vw", height: "40vw" },
         { url: "imgs/netlify.png", width: "50vw", height: "50vw" },
         { url: "imgs/git.png", width: "40vw", height: "40vw" },
