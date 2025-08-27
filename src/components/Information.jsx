@@ -6,11 +6,11 @@ function Information() {
       </div>
       <div className="div2">
         <p>CALL ME</p>
-        <i className="fa-solid fa-phone"></i>&nbsp;+20 114 456 1199
+        <i className="bi bi-phone"></i>&nbsp;+20 114 456 1199
         <br />
         <br />
         <p>MY MAIL</p>
-        <i className="fa-solid fa-envelope"></i>
+        <i className="bi bi-envelope"></i>
         &nbsp;zayman655@gmail.com
       </div>
     </div>

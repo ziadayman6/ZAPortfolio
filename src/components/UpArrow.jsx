@@ -4,7 +4,7 @@ function UpArrow() {
   return (
     <div className="up">
       <Link to="to" smooth={true} duration={500} className="jump">
-        <i className="fa-solid fa-chevron-up" style={{ color: "#ffffff" }}></i>
+        <i className="bi bi-chevron-up" style={{ color: "#ffffff" }}></i>
       </Link>
     </div>
   );

@@ -190,14 +190,13 @@
   width: 80%;
   margin-top: 5%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 3vw 0vw;
+  gap: 4vw 0vw;
 }
 
 .section3 .child {
-  width: 19%;
+  width: 20%;
 }
 
 .section3 .son {
@@ -219,21 +218,22 @@
     font-size: 3.5vw;
   }
   .section3 img {
-    width: 70%;
+    width: 40%;
   }
   .section3 .son {
     gap: 4vw;
   }
-  .section3 .son p{
+  .section3 .son p {
     font-weight: 700;
     font-size: larger;
   }
   .section3 .parent {
     margin-top: 10%;
-    gap: 20vw 0;
+    justify-content: space-around;
+    gap: 20vw 0vw;
   }
   .section3 .child {
-    width: 30%;
+    width: 50%;
   }
 }
 
@@ -302,6 +302,7 @@ hr {
 .section4 .tools {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 2vw;
   margin-top: 2vw;
@@ -334,7 +335,7 @@ hr {
   align-items: center;
   text-decoration: none;
   width: fit-content;
-  padding: 1vw;
+  padding: 1.5vw 0.7vw;
   color: white;
   border-radius: 5px;
   background-color: #0000cc;
@@ -346,7 +347,8 @@ hr {
 
 @media (max-width: 600px) {
   .section4 .tools img {
-    width: 20%;
+    width: 15%;
+    height: 15%;
   }
   .section4 .tools {
     margin: 5vw 0px;
@@ -368,7 +370,7 @@ hr {
   .anchor1,
   .anchor2 {
     height: fit-content;
-    padding: 2.5vw;
+    padding: 2vw 4vw;
   }
 
   .section4 .container {

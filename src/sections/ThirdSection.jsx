@@ -32,9 +32,9 @@ function ThirdSection() {
       url: "https://ziadayman6.github.io/LaCasaSegura/body.html",
       code: "https://github.com/ziadayman6/LaCasaSegura",
       tools: [
-        { url: "imgs/html-5.png", size: "70vw" },
-        { url: "imgs/css-3.png", size: "70vw" },
-        { url: "imgs/js.png", size: "70vw" },
+        { url: "imgs/html-5.png", width: "50vw", height: "50vw" },
+        { url: "imgs/css-3.png", width: "50vw", height: "50vw" },
+        { url: "imgs/js.png", width: "45vw", height: "45vw" },
       ],
     },
     {
@@ -45,10 +45,9 @@ function ThirdSection() {
       url: "http://ziadayman.pythonanywhere.com/home/",
       code: "https://github.com/ziadayman6/HumanResources",
       tools: [
-        { url: "imgs/html-5.png", size: "70vw" },
-        { url: "imgs/css-3.png", size: "70vw" },
-        { url: "imgs/js.png", size: "70vw" },
-        { url: "imgs/django.png", size: "70vw" },
+        { url: "imgs/html-5.png", width: "50vw", height: "50vw" },
+        { url: "imgs/css-3.png", width: "50vw", height: "50vw" },
+        { url: "imgs/js.png", width: "45vw", height: "45vw" },
       ],
     },
     {
@@ -59,8 +58,8 @@ function ThirdSection() {
       url: "https://reactquiz26.netlify.app/",
       code: "https://github.com/ziadayman6/React_JS_Quiz",
       tools: [
-        { url: "imgs/reactjs.png", size: "70vw" },
-        { url: "imgs/mui.png", size: "70vw" },
+        { url: "imgs/reactjs.png", width: "50vw", height: "50vw" },
+        { url: "imgs/mui.png", width: "40vw", height: "40vw" },
       ],
     },
     {
@@ -71,9 +70,27 @@ function ThirdSection() {
       url: "https://worldwise26.netlify.app/",
       code: "https://github.com/ziadayman6/WorldWise",
       tools: [
-        { url: "imgs/reactjs.png", size: "70vw" },
-        { url: "imgs/reactRouter.png", size: "90vw" },
-        { url: "imgs/css-3.png", size: "70vw" },
+        { url: "imgs/reactjs.png", width: "50vw", height: "50vw" },
+        { url: "imgs/reactRouter.png", width: "60vw", height: "40vw" },
+        { url: "imgs/css-3.png", width: "50vw", height: "50vw" },
+      ],
+    },
+    {
+      id: 5,
+      title: "CRUD WEBSITE",
+      desc: "Explore my travel planner project! A React-based app with a map feature that lets users choose a city, write picnic notes and visit this city in wikipedia. \n I create this website using ReactJS, and React Router for navigation, Context API and CSS for Design",
+      image: "imgs/crud.png",
+      url: "https://worldwise26.netlify.app/",
+      code: "https://github.com/ziadayman6/WorldWise",
+      tools: [
+        { url: "imgs/ts.png", width: "40vw", height: "40vw" },
+        { url: "imgs/reactjs.png", width: "50vw", height: "50vw" },
+        { url: "imgs/reactRouter.png", width: "60vw", height: "40vw" },
+        { url: "imgs/tailwind.png", width: "90vw", height: "50vw" },
+        { url: "imgs/i18next.png", width: "90vw", height: "30vw" },
+        { url: "imgs/reactHookForm.png", width: "50vw", height: "50vw" },
+        { url: "imgs/redux.png", width: "40vw", height: "40vw" },
+        { url: "imgs/vite.png", width: "40vw", height: "40vw" },
       ],
     },
   ];

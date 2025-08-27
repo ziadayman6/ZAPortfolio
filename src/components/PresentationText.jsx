@@ -36,28 +36,28 @@ function PresentationText() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa-brands fa-square-facebook"></i>
+          <i className="bi bi-facebook"></i>
         </a>
         <a
           href="https://www.instagram.com/ziadaymann26/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa-brands fa-square-instagram"></i>
+          <i className="bi bi-instagram"></i>
         </a>
         <a
           href="https://github.com/ziadayman6"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa-brands fa-github"></i>
+          <i className="bi bi-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/ziadayman6"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <i className="fa-brands fa-linkedin"></i>
+          <i className="bi bi-linkedin"></i>
         </a>
       </div>
       <div className="ParentCV animate__animated animate__slideInLeft animate__delay-4s wow">
