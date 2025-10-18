@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Service from "../components/Service";
-import Title from "./../components/Title";
+import Title from "../components/Title";
 
 function FirstSection() {
   const [isOpen1, setIsOpen1] = useState(false);

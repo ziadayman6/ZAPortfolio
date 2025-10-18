@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import Project from "./../components/Project";
+import Project from "../components/Project";
 import Title from "../components/Title";
 
 function ThirdSection() {
@@ -98,6 +98,26 @@ function ThirdSection() {
         { url: "imgs/vite.png", width: "40vw", height: "40vw" },
         { url: "imgs/netlify.png", width: "50vw", height: "50vw" },
         { url: "imgs/git.png", width: "40vw", height: "40vw" },
+      ],
+    },
+    {
+      id: 6,
+      title: "STEP 5TH WEBSITE",
+      desc: `A freelance responsive web platform focused on local and global gold investment feeds, featuring an affiliate marketing system, admin dashboard, and multi-theme support (dark, light, and system). \n I used ReactJS library with JavaScript, Tailwind CSS for styling and themes, i18next for multi-language support, React Query for data fetching and caching, React Hook Form for managing forms, and Figma for designing the full UI/UX.`,
+      image: "imgs/step5th.png",
+      url: "https://step5th.com/",
+      code: null,
+      tools: [
+        { url: "imgs/js.png", width: "40vw", height: "40vw" },
+        { url: "imgs/reactjs.png", width: "50vw", height: "50vw" },
+        { url: "imgs/ReactQuery.png", width: "45vw", height: "45vw" },
+        { url: "imgs/reactRouter.png", width: "60vw", height: "60vw" },
+        { url: "imgs/tailwind.png", width: "55vw", height: "55vw" },
+        { url: "imgs/i18next.png", width: "40vw", height: "40vw" },
+        { url: "imgs/reactHookForm.png", width: "50vw", height: "50vw" },
+        { url: "imgs/vite.png", width: "40vw", height: "40vw" },
+        { url: "imgs/git.png", width: "40vw", height: "40vw" },
+        { url: "imgs/figma.png", width: "50vw", height: "50vw" },
       ],
     },
   ];

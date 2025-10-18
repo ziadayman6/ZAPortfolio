@@ -5,10 +5,10 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import UpArrow from "./components/UpArrow";
 import Presentation from "./sections/Presentation";
-import FirstSection from "./sections/FirstSection";
-import SecondSection from "./sections/SecondSection";
-import ThirdSection from "./sections/ThirdSection";
-import FourthSection from "./sections/FourthSection";
+import FirstSection from "./sections/services";
+import SecondSection from "./sections/skills";
+import ThirdSection from "./sections/projects";
+import FourthSection from "./sections/contact";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
 

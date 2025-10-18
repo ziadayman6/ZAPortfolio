@@ -9,7 +9,12 @@ function Project({ image, url, desc, title, tools, code }) {
         <p className="desc">{desc}</p>
         <div className="tools">
           {tools.map((tool) => (
-            <img src={tool.url} alt="none" width={tool.width} height={tool.height} />
+            <img
+              src={tool.url}
+              alt="none"
+              width={tool.width}
+              height={tool.height}
+            />
           ))}
         </div>
         <div className="anchors">
@@ -21,14 +26,16 @@ function Project({ image, url, desc, title, tools, code }) {
           >
             <i className="bi bi-arrow-up"></i>
           </a>
-          <a
-            href={code}
-            rel="noopener noreferrer"
-            target="_blank"
-            className="anchor2"
-          >
-            <i class="bi bi-code"></i>
-          </a>
+          {code && (
+            <a
+              href={code}
+              rel="noopener noreferrer"
+              target="_blank"
+              className="anchor2"
+            >
+              <i class="bi bi-code"></i>
+            </a>
+          )}
         </div>
       </div>
     </div>
